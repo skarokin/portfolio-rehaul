@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { Button } from "$lib/components/ui/button";
     import * as Table from "$lib/components/ui/table/index.js";
     import { Badge } from "$lib/components/ui/badge";
 

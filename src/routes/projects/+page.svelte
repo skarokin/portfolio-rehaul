@@ -193,13 +193,15 @@
 </script>
 
 <div class="container flex flex-col items-start gap-2">
-    <Tabs.Root value={cards[0].title} class="w-full ">
-        <Tabs.List class="flex flex-wrap justify-start w-fit h-fit">
-            {#each cards as card}
+    <Tabs.Root value={cards[0].title} class="w-full">
+        <!-- horz scroll if too many tabs (mobile) -->
+        <div class="overflow-x-auto rounded-lg">
+            <Tabs.List class="flex gap-2 w-fit whitespace-nowrap">
+              {#each cards as card}
                 <Tabs.Trigger value={card.title}>{card.title}</Tabs.Trigger>
-            {/each}
-        </Tabs.List>
-
+              {/each}
+            </Tabs.List>
+        </div>
         {#each cards as card}
             <Tabs.Content value={card.title} class="mt-4">
                 <Card.Root class="w-full">

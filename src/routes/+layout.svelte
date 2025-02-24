@@ -9,8 +9,8 @@
 </script>
 
 <ModeWatcher />
-<div class="h-screen grid grid-rows-[auto_1fr] justify-stretch w-full">
-    <header class="top-0 border-b backdrop-blur border-border/40 bg-background/95 w-full">
+<div class="h-full flex flex-col justify-stretch w-full">
+    <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div class="container flex h-14 items-center justify-between">
             <div class="flex items-center gap-12">
                 <a href="/" class="hidden sm:inline-block font-bold">
@@ -40,7 +40,7 @@
             <Menu />
         </div>
     </header>
-    <main class="w-full bg-background overflow-auto pt-16 px-0 sm:px-24">
+    <main class="w-full bg-background overflow-auto py-16 px-0 sm:px-24">
         {@render children()}
     </main>
 </div>
