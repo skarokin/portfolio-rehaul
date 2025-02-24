@@ -1,6 +1,7 @@
 <script lang="ts">
     import { Button } from "$lib/components/ui/button";
     import * as Table from "$lib/components/ui/table/index.js";
+    import { Badge } from "$lib/components/ui/badge";
 
     const contacts = [
         {
@@ -48,15 +49,16 @@
                         {contact.method}
                     </Table.Cell>
                     <Table.Cell>
-                        <Button
-                            href={contact.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            variant="link"
-                            class="p-0"
-                        >
-                            {contact.value}
-                        </Button>
+                        <Badge variant="outline">
+                            <a
+                                href={contact.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="p-0"
+                            >
+                                {contact.value}
+                            </a>
+                        </Badge>
                     </Table.Cell>
                     <Table.Cell>
                         {contact.preferability}
