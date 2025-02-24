@@ -26,32 +26,31 @@
                         "Real-time search and filtering on internship postings or user's tracked applications.",
                 },
                 {
-                    tech: "Go",
-                    purpose: "REST API",
+                    tech: "Go & Firestore",
+                    purpose: "REST API & Storage",
                     results:
-                        "Front-facing REST API for authentication and server-side paginated data retrieval.",
+                        "Front-facing REST API for authentication, Algolia searching, and data analytics.",
                 },
                 {
                     tech: "RabbitMQ",
                     purpose: "Microservices",
-                    results:
-                        "Decoupled, scalable, and fault-tolerant Algolia indexing and data analytics microservices.",
+                    results: "Decoupled, scalable, and fault-tolerant Algolia indexing and BigQuery data ingestion microservices.",
                 },
                 {
-                    tech: "Firestore & CQRS",
-                    purpose: "Data Storage and Analytics",
-                    results: "Scalable data storage, aggregation, and analytics.",
+                    tech: "BigQuery & CQRS",
+                    purpose: "Real-time Analytics",
+                    results: "Data analysis on individual trends, using a denormalized schema and CQRS for fast querying."
+                },
+                {
+                    tech: "Docker & GCP",
+                    purpose: "Deployment",
+                    results: "Containerized, scalable, and fault-tolerant deployment across VM instances and serverless functions.",
                 },
                 {
                     tech: "Python",
                     purpose: "Data Scraping",
                     results: "Scheduled tech internship posting scraping for focused and fresh data.",
                 },
-                {
-                    tech: "Docker & GCP",
-                    purpose: "Deployment",
-                    results: "Containerized, scalable, and fault-tolerant deployment across VM instances and serverless functions.",
-                }
             ],
         },
         {
