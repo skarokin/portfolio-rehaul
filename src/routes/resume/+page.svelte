@@ -1,12 +1,12 @@
 <script lang="ts">
-    import resume from "$lib/assets/SeanKimResumeFeb2025.pdf";
+    import resume from "$lib/assets/SeanKimResume.pdf";
     import { Button } from "$lib/components/ui/button";
     import { Download } from "lucide-svelte";
 </script>
 
 <div class="container flex flex-col items-start gap-2">
     <h1 class="text-4xl font-bold">Resume</h1>
-    <p class="text-sm text-muted-foreground">Last updated: February 24, 2025</p>
+    <p class="text-sm text-muted-foreground">Last updated: February 25, 2025</p>
 
     <Button
         href={resume}

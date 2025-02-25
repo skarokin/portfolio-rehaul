@@ -32,9 +32,9 @@
                         "Front-facing REST API for authentication, Algolia searching, and data analytics.",
                 },
                 {
-                    tech: "RabbitMQ",
-                    purpose: "Microservices",
-                    results: "Decoupled, scalable, and fault-tolerant Algolia indexing and BigQuery data ingestion microservices.",
+                    tech: "Cloud Pub/Sub",
+                    purpose: "Messaging Service",
+                    results: "Decoupled, scalable, and fault-tolerant Algolia indexing and BigQuery analytics updating."
                 },
                 {
                     tech: "BigQuery & CQRS",
@@ -42,7 +42,7 @@
                     results: "Data analysis on individual trends, using a denormalized schema and CQRS for fast querying."
                 },
                 {
-                    tech: "Docker & GCP",
+                    tech: "Docker & GCP & Nginx",
                     purpose: "Deployment",
                     results: "Containerized, scalable, and fault-tolerant deployment across VM instances and serverless functions.",
                 },
