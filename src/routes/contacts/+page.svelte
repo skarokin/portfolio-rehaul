@@ -1,6 +1,6 @@
 <script lang="ts">
     import * as Table from "$lib/components/ui/table/index.js";
-    import { Badge } from "$lib/components/ui/badge";
+    import { badgeVariants } from "$lib/components/ui/badge/index.js";
 
     const contacts = [
         {
@@ -48,16 +48,14 @@
                         {contact.method}
                     </Table.Cell>
                     <Table.Cell>
-                        <Badge variant="outline">
-                            <a
-                                href={contact.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="p-0"
-                            >
-                                {contact.value}
-                            </a>
-                        </Badge>
+                        <a
+                            href={contact.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class={badgeVariants()}
+                        >
+                            {contact.value}
+                        </a>
                     </Table.Cell>
                     <Table.Cell>
                         {contact.preferability}

@@ -15,31 +15,29 @@
             github: "https://github.com/copium-dev/copium",
             table: [
                 {
-                    tech: "SvelteKit",
+                    tech: "SvelteKit & Vercel",
                     purpose: "Frontend Development",
-                    results: "Responsive, beautiful, and accessible design.",
+                    results: "Responsive, beautiful, and accessible design with SSR for performance."
                 },
                 {
                     tech: "Algolia",
                     purpose: "Search Engine",
-                    results:
-                        "Real-time search and filtering on internship postings or user's tracked applications.",
+                    results: "Real-time search and filtering on internship postings or user's tracked applications.",
                 },
                 {
                     tech: "Go & Firestore",
                     purpose: "REST API & Storage",
-                    results:
-                        "Front-facing REST API for authentication, Algolia searching, and data analytics.",
+                    results: "Front-facing REST API for authentication, Algolia searching, and data analytics.",
                 },
                 {
                     tech: "Cloud Pub/Sub",
                     purpose: "Messaging Service",
-                    results: "Decoupled, scalable, and fault-tolerant Algolia indexing and BigQuery analytics updating."
+                    results: "Decoupled and fault-tolerant Algolia indexing and BigQuery analytics with a strong consistency model."
                 },
                 {
                     tech: "BigQuery & CQRS",
                     purpose: "Real-time Analytics",
-                    results: "Data analysis on individual trends, using a denormalized schema and CQRS for fast querying."
+                    results: "Personalized insights by tracking monthly trends, leveraging a denormalized schema and CQRS for fast queries."
                 },
                 {
                     tech: "Docker & GCP & Nginx",
@@ -96,8 +94,8 @@
             table: [
                 {
                     tech: "Python",
-                    purpose: "Data Preprocessing & Rule Generation",
-                    results: "Inject real-world grammar errors via inflection into datasets with dependency trees, POS tags, and morphological analysis.", 
+                    purpose: "Augmentation Pipeline",
+                    results: "Injects real-world grammar errors via inflection into datasets by analyzing dependency trees, POS tags, and morphological features."
                 },
                 {
                     tech: "Flask",
@@ -110,7 +108,7 @@
                     results: "Fault-tolerant and HTTPS-secured API calls for quick, accurate, and interpretable grammar and spell checking.",
                 },
                 {
-                    tech: "SvelteKit",
+                    tech: "SvelteKit & Firebase",
                     purpose: "Documentation & API Reference",
                     results: "Interactive API reference, extensive integration guides, detailed documentation, and devblog.",
                 }
@@ -197,7 +195,7 @@
         <div class="overflow-x-auto rounded-lg">
             <Tabs.List class="flex gap-2 w-fit whitespace-nowrap">
               {#each cards as card}
-                <Tabs.Trigger value={card.title}>{card.title}</Tabs.Trigger>
+                <Tabs.Trigger class="hover:text-foreground/80 transition-colors" value={card.title}>{card.title}</Tabs.Trigger>
               {/each}
             </Tabs.List>
         </div>
