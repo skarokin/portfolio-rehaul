@@ -6,7 +6,7 @@
 
 <div class="container flex flex-col items-start gap-2">
     <h1 class="text-4xl font-bold">Resume</h1>
-    <p class="text-sm text-muted-foreground">Last updated: February 25, 2025</p>
+    <p class="text-sm text-muted-foreground">Last updated: March 22, 2025</p>
 
     <Button
         href={resume}

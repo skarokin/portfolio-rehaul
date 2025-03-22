@@ -17,7 +17,7 @@
                 {
                     tech: "SvelteKit & Vercel",
                     purpose: "Frontend Development",
-                    results: "Responsive, beautiful, and accessible design with SSR for performance."
+                    results: "Responsive, beautiful, and accessible design with SSR and easy CI/CD."
                 },
                 {
                     tech: "Algolia",
@@ -32,7 +32,7 @@
                 {
                     tech: "Cloud Pub/Sub",
                     purpose: "Messaging Service",
-                    results: "Decoupled and fault-tolerant Algolia indexing and BigQuery analytics with a strong consistency model."
+                    results: "Decoupled and fault-tolerant Algolia indexing and BigQuery analytics with compensating transactions and retries for eventual consistency.", 
                 },
                 {
                     tech: "BigQuery & CQRS",
@@ -40,7 +40,7 @@
                     results: "Personalized insights by tracking monthly trends, leveraging a denormalized schema and CQRS for fast queries."
                 },
                 {
-                    tech: "Docker & GCP & Nginx",
+                    tech: "Docker & GCP",
                     purpose: "Deployment",
                     results: "Containerized, scalable, and fault-tolerant deployment across VM instances and serverless functions.",
                 },

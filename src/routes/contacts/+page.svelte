@@ -11,8 +11,8 @@
         },
         {
             method: "LinkedIn",
-            value: "sean-kim-959174238",
-            href: "https://www.linkedin.com/in/sean-kim-959174238/",
+            value: "kimtaemin",
+            href: "https://www.linkedin.com/in/kimtaemin/",
             preferability: "Med"
         },
         {
