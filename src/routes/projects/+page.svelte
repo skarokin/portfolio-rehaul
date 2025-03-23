@@ -42,7 +42,7 @@
                 {
                     tech: "Docker & GCP",
                     purpose: "Deployment",
-                    results: "Containerized, scalable, and fault-tolerant deployment across VM instances and serverless functions.",
+                    results: "Containerized, scalable, and fault-tolerant deployment across VM instances and Cloud Run services."
                 },
                 {
                     tech: "Python",
