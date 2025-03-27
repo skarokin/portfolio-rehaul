@@ -8,8 +8,8 @@
     const cards = [
         {
             title: "copium.dev",
-            description: "Tech internship management platform with real-time search, data analytics, and live postings.\
-            Backend infrastructure scalable to millions with microservices and message queues.",
+            description: "Tech internship management platform with powerful application management tools, data analytics, and live postings.\
+            Backend infrastructure scalable to millions with event-driven architecture and microservices.",
             date: "Jan 2025 - Present",
             link: "https://copium.dev",
             github: "https://github.com/copium-dev/copium",
