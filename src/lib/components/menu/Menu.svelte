@@ -70,7 +70,7 @@
                 <LinkedIn />
                 <a
                     class="ml-2 text-xs"
-                    href="https://www.linkedin.com/in/sean-kim-959174238/"
+                    href="https://www.linkedin.com/in/kimtaemin/"
                     target="_blank"
                 >
                     LinkedIn

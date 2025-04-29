@@ -8,6 +8,21 @@
     const cards = [
         {
             title: "copium.dev",
+            description: "Your win condition in the tech career game. Connect with recruiters, find opportunities as soon as they drop, \
+            access powerful application management tools and data-driven insights, share your journey with friends, review company data, and get hired-faster.",
+            date: "May 2025 - Present",
+            link: "https://copium.dev",
+            github: "https://github.com/copium-dev/copium",
+            table: [
+                {
+                    tech: "tech stack is a secret for now :)",
+                    purpose: "i wonder why that is...",
+                    results: "we will see soon enough"
+                }
+            ]
+        },
+        {
+            title: "copium.dev (pre-merger)",
             description: "Tech internship management platform with powerful application management tools, data analytics, and live postings.\
             Backend infrastructure scalable to millions with event-driven architecture and microservices.",
             date: "Jan 2025 - Present",
